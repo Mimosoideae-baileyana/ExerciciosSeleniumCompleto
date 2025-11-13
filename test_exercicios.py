@@ -28,7 +28,7 @@ def test_login_sucesso(driver):
     time.sleep(1)
     message = driver.find_element(By.ID, "message").text
     time.sleep(1)
-    assert message == "Login bem-sucedido!"
+    assert message == "Login bem-sucedido! 2"
 
 
 def test_login_falha(driver):
